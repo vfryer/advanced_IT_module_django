@@ -1,0 +1,3 @@
+Instructions used to upload data to sqlite db:
+http://www.sqlitetutorial.net/sqlite-import-csv/
+N.B. initial command shoudl be 'sqlite3' not 'sqlite'
