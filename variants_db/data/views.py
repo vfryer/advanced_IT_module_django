@@ -1,5 +1,4 @@
 from django.shortcuts import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello world. You're at the data index")
-
+    return HttpResponse("This is going to be a variant database. Work in Progress")
