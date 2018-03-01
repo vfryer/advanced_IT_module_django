@@ -1,6 +1,6 @@
 from django.db import models
 
-class raw_data(models.Model):
+class Raw_data(models.Model):
     sample_number = models.IntegerField('Sample_Number')
     first_name = models.CharField('First_Name', max_length=100)
     last_name = models.CharField('Last_Name', max_length=100)
