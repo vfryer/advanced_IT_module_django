@@ -8,9 +8,9 @@ class Sample(models.Model):
     stage = models.IntegerField('Stage')
     type = models.CharField('Type', max_length=100)
     sequencer = models.CharField('Sequencer', max_length=100)
-    cDNA_variant = models.CharField('cDNA_change', max_length=200)
+    cdna_variant = models.CharField('cDNA_change', max_length=200)
     protein_variant = models.CharField('Protein_change', max_length=200)
-    genomic_variant = models.CharField('Genome_change', max_length=200)
+    genome_variant = models.CharField('Genome_change', max_length=200)
 
-    def __str__(self):
-        return self.cDNA_variant + ', ' + protein_variant
+#    def __str__(self):
+#        return self.cdna_variant + ', ' + protein_variant
