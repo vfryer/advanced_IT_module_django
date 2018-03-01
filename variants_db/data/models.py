@@ -1,8 +1,8 @@
 from django.db import models
 
 class Test(models.Model):
-    text_attri = models.IntegerField()
-    number_attri = models.CharField
+    number_attri = models.IntegerField
+    text_attri = models.CharField
 
 class Sample(models.Model):
     sample_number = models.IntegerField('Sample_Number')
