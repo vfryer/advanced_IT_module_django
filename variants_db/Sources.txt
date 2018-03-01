@@ -1,0 +1,15 @@
+README
+Installation:
+  Django: https://docs.djangoproject.com/en/2.0/intro/install/
+  Git: https://git-scm.com/downloads
+
+Documentation:
+  https://docs.djangoproject.com/en/2.0/
+
+Tutorials:
+  https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
+  https://www.youtube.com/watch?v=FNQxxpM1yOs
+
+Git:
+  https://www.youtube.com/watch?v=J_Clau1bYco
+  https://www.youtube.com/watch?v=SWYqp7iY_Tc
