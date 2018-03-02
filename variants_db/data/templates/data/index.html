@@ -1,0 +1,9 @@
+{% if all_samples %}
+    <ul>
+        {% for sample in all_samples %}
+        <li><a href="/data/{{sample.id}}/">{{sample.last_name|add:", "|add:sample.first_name}}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h3> There are no samples to view </h3>
+{% endif %}
