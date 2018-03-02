@@ -10,4 +10,9 @@ def index(request):
     return  HttpResponse(template.render(context, request))
 
 def detail(request, sample_id):
-    return HttpResponse("<h2>Details for Sample id: " + sample_id + "</h2>")
+    sample_info = Sample.objects.all().filter(id=sample_id)
+    template = template = loader.get_template('data/details.html')
+    context = {'sample_info':sample_info,
+    }
+    return  HttpResponse(template.render(context, request))
+#    return HttpResponse("<h2>Details for Sample id: " + sample_id + "</h2>")

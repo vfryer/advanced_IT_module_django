@@ -1,5 +1,6 @@
 {% if all_samples %}
     <ul>
+        <h1> Patient List </h1>
         {% for sample in all_samples %}
         <li><a href="/data/{{sample.id}}/">{{sample.last_name|add:", "|add:sample.first_name}}</a></li>
         {% endfor %}

@@ -1,0 +1,14 @@
+{% if sample_info %}
+    <ul>
+        {% for sample in sample_info %}
+            <h2>Details for Sample ID: {{sample.id}}</h2>
+            <h3>Name: {{sample.last_name|add:", "|add:sample.first_name}}</h3>
+            <h3>Age: {{sample.age}}</h3>
+            <h3>Stage: {{sample.stage}}</h3>
+            <h3>Type: {{sample.type}}</h3>
+            <h3>Variant details: {{sample.cdna_variant|add:", ("|add:sample.protein_variant|add:"), "|add:sample.genome_variant}}</h3>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h3> There are no samples to view </h3>
+{% endif %}
