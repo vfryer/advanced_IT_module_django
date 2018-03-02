@@ -7,5 +7,4 @@ urlpatterns = [
     path('', views.index, name='index'),
     # /data/35/
     re_path(r'^(?P<sample_id>[0-9]+)/$', views.detail, name='detail'),
-    re_path(r'^(?P<sample_id>[0-9]+)/$', views.table, name='table'),
 ]

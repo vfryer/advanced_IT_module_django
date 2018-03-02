@@ -20,7 +20,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django_tables2',
-    'table.apps.TableConfig'
+    'table.apps.TableConfig',
     'queries.apps.QueriesConfig',
     'data.apps.DataConfig',
     'django.contrib.admin',
